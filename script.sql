@@ -284,7 +284,7 @@ values ('Clubman', 'Clubman','');
 -- Datos fecha de compra
 
 insert into examen.fecha_compra  (fecha, name, comentario)
-values ('2020-02-07', 'FEBRERO','');
+values ('2010-02-07', 'FEBRERO','');
 
 insert into examen.fecha_compra  (fecha, name, comentario)
 values ('2019-10-07', '2019-10-07','');
@@ -299,7 +299,7 @@ insert into examen.fecha_compra  (fecha, name, comentario)
 values ('2021-03-02', '2021-03-02','');
 
 insert into examen.fecha_compra  (fecha, name, comentario)
-values ('2022-02-03', '2022-02-03','');
+values ('2014-02-03', '2022-02-03','');
 
 insert into examen.fecha_compra  (fecha, name, comentario)
 values ('2018-06-07', '2018-06-07','');
@@ -311,7 +311,7 @@ insert into examen.fecha_compra  (fecha, name, comentario)
 values ('2018-02-09', '2018-02-09','');
 
 insert into examen.fecha_compra  (fecha, name, comentario)
-values ('2027-02-07', '2027-02-07','');
+values ('2017-02-07', '2027-02-07','');
 
 -- DATOS MATRICULAS
 
@@ -484,13 +484,13 @@ values ('1500', 'Tercera revision','');
 --- Creamos los coches
 
 insert into examen.coches (idcoche, name , idgrupo, idmarca, idmodelo, matricula_num, color, kilometraje, id_aseguradoras, num_poliza, num_revision, kilometros_revision, fecha, fecha_revision, precio_revision, comentario)
-values ('0001','', 'Renault Group','Renault', 'Megan','EU2891', 'VERDE', '2000', 'AXA', 'A234567', '1','1000','2018-02-07', '2018-02-07','500','');
+values ('0001','', 'Renault Group','Renault', 'Megan','EU2891', 'VERDE', '2000', 'AXA', 'A234567', '3','1000','2010-02-07', '2018-02-07','1500','');
 
 insert into examen.coches (idcoche, name, idgrupo, idmarca, idmodelo, matricula_num, color, kilometraje, id_aseguradoras, num_poliza, num_revision, kilometros_revision, fecha, fecha_revision, precio_revision, comentario)
-values ('0002','', 'Renault Group','Dacia', 'Sandero','EU2822', 'AMARILLO', '1000', 'MAPFRE', 'B234567', '2','2000','2019-10-07', '2020-02-07','1000','');
+values ('0002','', 'Renault Group','Dacia', 'Sandero','EU2822', 'AMARILLO', '1000', 'MAPFRE', 'B234567', '2','2000','2018-10-07', '2020-02-07','1000','');
 
 insert into examen.coches (idcoche, name, idgrupo, idmarca, idmodelo, matricula_num, color, kilometraje, id_aseguradoras, num_poliza, num_revision, kilometros_revision, fecha, fecha_revision, precio_revision, comentario)
-values ('0003','', 'BMW Group','Mini', 'Cabrio','EU6789', 'AZUL', '2000', 'AXA', 'C234567', '1','1000','2020-02-07', '2018-02-07','500','');
+values ('0003','', 'BMW Group','Mini', 'Cabrio','EU6789', 'AZUL', '2000', 'AXA', 'C234567', '1','1000','2017-02-07', '2018-02-07','500','');
 
 insert into examen.coches (idcoche, name, idgrupo, idmarca, idmodelo, matricula_num, color, kilometraje, id_aseguradoras, num_poliza, num_revision, kilometros_revision, fecha, fecha_revision, precio_revision, comentario)
 values ('0004','', 'Nissan group','Mitsubisi', 'Takai','EU1111', 'GRIS', '1000', 'MAPFRE', 'G234567', '3','5000','2018-06-07', '2022-02-07','1500','');
@@ -499,6 +499,6 @@ insert into examen.coches (idcoche, name, idgrupo, idmarca, idmodelo, matricula_
 values ('0005','', 'Nissan group','Nissan', 'Qasqhai','EU1678', 'ROJO', '4000', 'AXA', 'I234567', '1','2000','2018-02-09', '2022-02-07','500','');
 
 insert into examen.coches (idcoche, name, idgrupo, idmarca, idmodelo, matricula_num, color, kilometraje, id_aseguradoras, num_poliza, num_revision, kilometros_revision, fecha, fecha_revision, precio_revision, comentario)
-values ('0006','', 'BMW Group','Mini', 'Clubman','EU2222', 'AMARILLO', '80000', 'AXA', 'H234567', '3','2000','2022-02-03', '2022-02-07','1500','');
+values ('0006','', 'BMW Group','Mini', 'Clubman','EU2222', 'AMARILLO', '80000', 'AXA', 'H234567', '3','2000','2014-02-03', '2022-02-07','1500','');
 
-select * from examen.coches 
+--select * from examen.coches 
